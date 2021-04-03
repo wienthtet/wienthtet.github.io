@@ -1025,21 +1025,21 @@ a {
   }
 }
 .cid-stw0JXNjKu {
-  padding-top: 0rem;
-  padding-bottom: 0rem;
+  padding-top: 0;
+  padding-bottom: 0;
   background-color: #fafafa;
 }
 .cid-stw0JXNjKu .carousel {
-  height: 800px;
-}
-.cid-stw0JXNjKu .carousel img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
-.cid-stw0JXNjKu .carousel-item,
 .cid-stw0JXNjKu .carousel-inner {
-  height: 100%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+.cid-stw0JXNjKu .carousel-item img {
+  height: 100vh;
+  object-fit: cover;
 }
 .cid-stw0JXNjKu .mbr-overlay {
   z-index: 1;
